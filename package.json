@@ -1,0 +1,20 @@
+{
+  "name": "tareaenclase",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --watch app.js",
+    "run": "node --env-file=.env app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bruno Quiroz",
+  "license": "ISC",
+  "description": "Mascotas API",
+  "dependencies": {
+    "express": "^5.3.0",
+    "morgan": "^1.12.1",
+    "pg": "^8.23.1"
+  }
+}
